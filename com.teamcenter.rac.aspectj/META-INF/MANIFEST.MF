@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Rich Client Aspect
+Bundle-SymbolicName: com.teamcenter.rac.aspectj; singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Vendor: TEAMCENTER
+Require-Bundle: org.eclipse.core.runtime,
+ org.aspectj.runtime,
+ org.eclipse.core.expressions,
+ org.eclipse.ui.workbench
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Export-Package: com.teamcenter.rac.aspectj
+Import-Package: org.apache.log4j
