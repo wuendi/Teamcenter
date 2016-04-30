@@ -9,7 +9,7 @@ This project is fixing performance problem in Eclipse 3.8 core expression module
 3. The build script is patchrcp.pl
 
 ## Build
-1. Download aspectj 1.7.2 compiler for weaving from 
+1. Download aspectj 1.7.2 compiler for weaving from
 http://www.eclipse.org/downloads/download.php?file=/tools/aspectj/aspectj-1.7.2.jar 
 
 2. Download aspectj eclipse runtime plugin to build com.teamcenter.rac.aspectj and runtime execution in rcp
