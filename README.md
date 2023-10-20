@@ -1,5 +1,5 @@
 # Teamcenter aspectj open source
-This project is fixing performance problem in Eclipse 3.8 core expression module evaluating the visibleWhen and activeWhen clause defined in plugin.xml to control the state of menu command items, command handlers. It implements a caching mechanism preventing same expression iteration evalated multiple times. We are using aspectj compiler to weave eclipse 3.8 core expression API in org.eclipse.core.expression and org.eclipse.ui.workbench plugins, during runtime, eclipse APIs execute our point out code to get caching to improve the performance 
+This project is fixing performance problem in Eclipse 3.8 core expression module evaluating the visibleWhen and activeWhen clause defined in plugin.xml to control the state of menu command items, command handlers. It implements a caching mechanism preventing same expression iteration evaluated multiple times. We are using aspectj compiler to weave eclipse 3.8 core expression API in org.eclipse.core.expression and org.eclipse.ui.workbench plugins, during runtime, eclipse APIs execute our point out code to get caching to improve the performance 
 
 ## Source code and binary
 1. The source files are located in com.teamcenter.rac.aspectj package.
